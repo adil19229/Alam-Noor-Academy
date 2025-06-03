@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alam Noor Academy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #1e3c72;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e3c72;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: "? ";
+      padding-left: 20px;
+    }
+
+    .box {
+      background: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-top: 20px;
+      border-left: 5px solid #1e3c72;
+      border-radius: 8px;
+    }
+
+    .button {
+      background: #1e3c72;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      display: inline-block;
+      margin-top: 15px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #16325c;
+    }
+
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .whatsapp-box {
+      background: #e9f7ef;
+      padding: 15px;
+      border-left: 4px solid #25D366;
+      margin-top: 30px;
+      border-radius: 6px;
+    }
+
+    .whatsapp-box a {
+      color: #25D366;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .logo {
+      margin-top: 15px;
+      max-width: 180px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alam Noor Academy</h1>
+  <p>Bringing the Light of Qur’an to Every Heart</p>
+  <!-- ?? You can place your logo below -->
+  <!-- <img class="logo" src="your-logo.png" alt="Academy Logo"> -->
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#timing">Timings</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="box">
+    <h2>?? About Us</h2>
+    <p>Alam Noor Academy is a global Islamic learning platform offering Qur'an and Islamic education online and offline for children and adults.</p>
+  </div>
+</section>
+
+<section id="courses">
+  <div class="box">
+    <h2>?? Courses We Offer</h2>
+    <ul>
+      <li>Qur’an with Tajweed – Learn proper pronunciation</li>
+      <li>Nazra Qur’an – From letters to fluent recitation</li>
+      <li>Hifz-ul-Qur’an – Full memorization program</li>
+      <li>Arabic Grammar (Sarf & Nahw)</li>
+      <li>Islamic Fiqh – Daily rulings & guidance</li>
+      <li>Du'as & Islamic Manners – Daily life sunnah</li>
+      <li>Friday/Saturday Lectures – With Q&A</li>
+    </ul>
+  </div>
+</section>
+
+<section id="timing">
+  <div class="box">
+    <h2>?? Class Schedule</h2>
+    <p><strong>UK/US Time:</strong> 9 AM to 1 AM (Midnight)</p>
+    <p><strong>Pakistan Time:</strong> 2 PM to 1 AM</p>
+    <p>Platform: Zoom / WhatsApp</p>
+    <p>Certified male & female teachers available</p>
+  </div>
+</section>
+
+<section class="whatsapp-box">
+  <h2>?? 3-Day Free Trial!</h2>
+  <p>Want to try our classes? Start with a free 3-day trial and join directly with your teacher.</p>
+  <a href="https://wa.me/923019590103?text=I'm%20interested%20in%20joining%20Qur'an%20classes%20at%20Alam%20Noor%20Academy" target="_blank">?? Click here to WhatsApp your teacher</a>
+</section>
+
+<section id="contact">
+  <div class="box">
+    <h2>?? Contact Us</h2>
+    <p><strong>WhatsApp:</strong> +92 301 9590103</p>
+    <p><strong>Email:</strong> aalamnooracademy@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Alam Noor Academy | Online Qur’an & Islamic Learning
+</footer>
+
+</body>
+</html>
